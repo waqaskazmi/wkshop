@@ -1,0 +1,4 @@
+{
+    "jwtPrivateKey" : "wkshop_jwtPrivateKey",
+    "db" : "wkshop_db"
+}
