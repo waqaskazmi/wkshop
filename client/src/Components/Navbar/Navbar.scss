@@ -51,5 +51,40 @@
             }
         }
     }
+    @media (max-width: 768px) {
+        height: auto;
+        padding: 10px;
+        font-size: 14px;
+    
+        .wrapper {
+          padding: 10px;
+          flex-direction: column;
+          gap: 10px;
+        }
+    
+        .left,
+        .right {
+          gap: 10px;
+        }
+    
+        .center {
+          font-size: 24px;
+        }
+    
+        .icons {
+          gap: 10px;
+    
+          .cartIcon {
+            span {
+              height: 15px;
+              width: 15px;
+              font-size: 10px;
+              right: -8px;
+              top: -8px;
+            }
+          }
+        }
+    }
+    
 
 }
